@@ -1,0 +1,25 @@
+body {
+    overflow-x: hidden;
+      background-color: rgb(237, 202, 238)
+}
+.fondo-inicio {
+    width: auto;
+    height: 694px;
+    background-image: url(img/ori.morado.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: white;
+    margin-top: 0.4em;
+}
+
+.span-nav{
+ background-color: #E9ECEF;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+ 
+}
