@@ -10,31 +10,51 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 12px;
 }
 
+.estilo{
+    height: 50px;
+    padding: 20px;
+}
 .lista {
     background-color: white;
-    margin-top: 0.4em;
-    display:none;
+    display: none;
 }
 
 .span-nav {
     background-color: #E9ECEF;
     padding: 12px;
     display: inline;
+
 }
+
 .links {
     height: 100%;
-}
-.links>div {
-    height: 100%;
-}
-.links>div>div{
-    height: 100%;
-  display: flex;
-  align-items: center;
-    justify-content: flex-end;
-}
-.links>div>div>a{
     
+}
+
+.links > div {
+    height: 100%;
+    
+    
+}
+
+.links > div > div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+
+.links > div > div > a {
+    background-color: red
+}
+
+.p0, .p1, .p2 {
+    display: none;
+}
+.active {
+    display: block;
 }
