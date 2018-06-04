@@ -1,60 +1,94 @@
 body {
     overflow-x: hidden;
-    background-color: rgb(237, 202, 238)
+    background-color: rgb(237, 202, 238);
 }
 
 .fondo-inicio {
     width: auto;
-    height: 694px;
+    height: 774px;
     background-image: url(img/ori.morado.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 12px;
 }
-
-.estilo{
-    height: 50px;
-    padding: 20px;
+/* -----inicio navs-----*/
+/*Pantallas pequeñas*/
+.span-nav {
+    background-color: #E9ECEF;
+    padding: 12px;
+    display: inline;
 }
+
 .lista {
     background-color: white;
     display: none;
 }
 
-.span-nav {
-    background-color: #E9ECEF;
-    padding: 12px;
-    display: inline;
-
+/*Pantallas Grandes*/
+.estilo{
+    height: 50px;
+    padding: 20px;
 }
-
 .links {
-    height: 100%;
-    
+    height: 100%; 
 }
 
 .links > div {
-    height: 100%;
-    
-    
+    height: 100%;   
 }
 
 .links > div > div {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-   
+    justify-content: flex-end; 
 }
 
 .links > div > div > a {
     background-color: red
 }
+/* -----fin navs----- */
 
-.p0, .p1, .p2 {
+/* -----inicio carousel----- */
+.p0, .p1, .p2, .p3{
     display: none;
+    
 }
+
 .active {
     display: block;
 }
+/*fin carousel*/
+
+/* inicio horario*/
+.horario{
+ 
+     background-color: #fff;
+}
+
+.power{
+     background-color: rgba(0, 160, 234, 0.44);
+}
+
+.shameless{
+   background-color: rgba(244, 57, 57, 0.44);
+}
+
+.hood{
+    background-color: rgba(118, 216, 126, 0.44);
+}
+
+.gravity{
+    background-color: rgba(42, 41, 41, 0.44);
+    color: white;
+}
+
+.mobster{
+    background-color:rgba(235, 161, 36, 0.44);
+}
+.proximo{
+     background-color: rgba(128, 128, 128, 0.44);
+     color: white;
+}
+/* fin horario lineal */
