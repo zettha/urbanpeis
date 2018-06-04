@@ -1,0 +1,18 @@
+Fonts used in this design;
+
+Font: Grand Hotel, 
+Author: Astigmatic, 
+Url: http://www.fontsquirrel.com/fonts/grand-hotel; 
+
+Font: Norwester, 
+Author: Jamie Wilson, 
+Url: http://www.fontsquirrel.com/fonts/norwester; 
+
+Font: Vollkorn, 
+Author: FRiTZe, 
+Url: http://www.fontsquirrel.com/fonts/vollkorn; 
+
+Font: De Valencia, 
+Author: Manuel Fernández del Campo García, 
+Url: https://www.fontsquirrel.com/fonts/de-valencia; 
+

@@ -1,0 +1,30 @@
+Fonts used in this design;
+
+
+Font: Alfa Slab,
+Author: JM Solé,
+Url: http://www.fontsquirrel.com/fonts/alfa-slab;
+
+Font: Bree Serif,
+Author: TypeTogether,
+Url: http://www.fontsquirrel.com/fonts/bree-serif;
+
+Font: Bitter,
+Author: Sol Matas,
+Url: http://www.fontsquirrel.com/fonts/bitter;
+
+Font: Langdon,
+Author: xIntelecom,
+Url: http://www.fontsquirrel.com/fonts/langdon;
+
+Font: Lobster,
+Author: Impallari Type,
+Url: http://www.fontsquirrel.com/fonts/Lobster;
+
+Font: Bebas Neue,
+Author: Fontfabric,
+Url: http://www.fontsquirrel.com/fonts/bebas-neue;
+
+Font: Great Vibes,
+Author: TypeSETit,
+Url: http://www.fontsquirrel.com/fonts/great-vibes;
