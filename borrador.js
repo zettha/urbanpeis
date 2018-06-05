@@ -17,3 +17,7 @@ $('.carousel').on('slide.bs.carousel', function (ev) {
         .addClass("active");
 });
 
+ // animación
+    $(".animado").click(function(){
+      $(this).toggleClass("animated jello",2000 ) 
+    });
