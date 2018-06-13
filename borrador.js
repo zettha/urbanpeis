@@ -10,7 +10,7 @@ $(".carousel").carousel({interval: 3000});
 
 //parrafo activo carousel
 $('.carousel').on('slide.bs.carousel', function (ev) {
-    debugger;
+    //debugger;
     $(".contenedor > p")
         .removeClass("active")
         .eq(ev.to)
@@ -20,4 +20,9 @@ $('.carousel').on('slide.bs.carousel', function (ev) {
  // animación
     $(".animado").click(function(){
       $(this).toggleClass("animated jello",2000 ) 
+    });
+
+//nav hamburguesa aparicion del color de fondo
+     $(".fa-bars").on("click", function() {
+        $(this).toggleClass("fondo-nav-hamburguesa");
     });
