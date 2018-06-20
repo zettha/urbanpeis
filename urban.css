@@ -1,356 +1,385 @@
-* {
-    padding: 0;
-    margin: 0;
-}
+ .header {
+              width: 100%;
+        }
 
-body {
-    overflow-x: hidden;
-    background-color: white;
-    color: rgb(24, 24, 24);
-}
+        .menu {
+            z-index: 100;
+            top: 0;
+        }
 
-a:link {
-    text-decoration: none;
-}
+        .wrapper {
+            height: 100%;
+            width: 100%;
+            z-index: -100;
+           padding-top: 20px;
+        }
 
-.margen-top{
-    margin-top: 2em;
-}
+        .fixed {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
 
-.margen-bot{
-    margin-bottom: 1em;
-}
+        * {
+            padding: 0;
+            margin: 0;
+        }
 
-/*Inicio Fuentes*/
+        body {
+            overflow-x: hidden;
+            background-color: white;
+            color: rgb(24, 24, 24);
+        }
 
-p,
-a {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-}
+        a:link {
+            text-decoration: none;
+        }
 
-.h1 {
-    font-family: 'Pacifico', cursive;
-    font-size: 3.7em;
-}
+        .margen-top {
+            margin-top: 2em;
+        }
 
-.h3 {
-    font-weight: 600;
-    font-size: 1.5em;
-}
+        .margen-bot {
+            margin-bottom: 1em;
+        }
 
-@media (max-width: 600px) {
-    .h1 {
-        font-weight: 500;
-        font-size: 2.5em;
-    }
-    .h3 {
-        font-weight: 500;
-        font-size: 1.1em;
-    }
-}
+        /*Inicio Fuentes*/
+        p,
+        a {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+        }
 
-/*Fin Fuente*/
+        .h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 3.7em;
+        }
 
-/*Inicio Cabecera*/
-.fondo-inicio {
-  width: 100%;
-    height: 777px;
-   background: rgb(167,95,181);
-background: linear-gradient(90deg, rgba(167,95,181,1) 0%, rgba(231,181,234,1) 50%, rgba(140,145,236,1) 100%);
-    z-index: 0;
-}
+        .h3 {
+            font-weight: 600;
+            font-size: 1.5em;
+        }
 
-/*.logo-cont,*/ .slogan-cont{
-   
-     width: 100%;
-}
+        .largo {
+            height: 5em;
+        }
 
-.logo{
-    color: #fff;
-     font-family: 'Pacifico', cursive;
-    font-size: 4em;
-     display: block;
-    text-align: center;
-    text-shadow: 0px 3px 6px #333;
-}
+        .logo {
+            color: #fff;
+            font-family: 'Pacifico', cursive;
+            font-size: 7em;
+            display: block;
+            text-align: center;
+            text-shadow: 0px 3px 6px #333;
+        }
 
-.largo-logo {
-    height: 877px;
-}
-
-.eslogan{
-     color: #fff;
-    font-family: 'Pacifico', cursive;
-     font-size: 1.8em;
-  text-shadow: 0px 3px 6px #333;
-     
+        @media (max-width: 600px) {
+            .h1 {
+                font-weight: 500;
+                font-size: 2.5em;
+            }
+            .h3 {
+                font-weight: 500;
+                font-size: 1.1em;
+            }
+            .largo {
+                height: 6.5em;
+            }
+            .logo {
+                font-size: 4em;
+            }
+        }
+        /*Fin Fuente*/
         
+        
+        
+        /*Inicio Cabecera*/
 
-}
-/*Fin Cabecera*/
+        .fondo-inicio {
+            width: 100%;
+            height: 790px;
+            background: rgb(167, 95, 181);
+            background: linear-gradient(90deg, rgba(167, 95, 181, 1) 0%, rgba(231, 181, 234, 1) 50%, rgba(140, 145, 236, 1) 100%);
+        }
 
-/* -----inicio navs-----*/
-/*Pantallas pequeñas*/
+        /*.logo-cont,*/
 
-.logo-peque {
-    font-size: 2.1em;
-    color: #ffffff;
-    font-family: 'Pacifico', cursive;
-    padding-top: 7px;
-}
-.logo-peque:visited {color: #ffffff;}
-.logo-peque:active {color: #ffffff;}
-.logo-peque:hover {color: #ffffff;}
+        .slogan-cont {
+            width: 100%;
+        }
 
-.span-nav {
-    padding-top: 7px;
-    color: white;
-    font-size: 1.5em;
-}
+        .largo-logo {
+            height: 777px;
+        }
 
-.lista {
-    background-color: #fff;
-    display: none;
-    margin-right: 41px ;
-    margin-top: -36px;
- 
-}
+        .eslogan {
+            color: #fff;
+            font-family: 'Pacifico', cursive;
+            font-size: 1.8em;
+            text-shadow: 0px 3px 6px #333;
+        }
 
-.fondo-nav-hamburguesa {
-    background-color: #fff;
-    color: #292929;
-    padding: 6px;
-}
+        /*Fin Cabecera*/
 
-.lista > a :visited {
-    color: #ffffff;
-}
+        /* -----inicio navs-----*/
 
-.a-hamburguesa:visited {
-    color: #ffffff;
-}
+        /*Pantallas pequeñas*/
 
-.a-hamburguesa:active {
-    color: #ffffff;
-}
+        .logo-peque {
+            font-size: 2.1em;
+            color: #ffffff;
+            font-family: 'Pacifico', cursive;
+            padding-top: 7px;
+        }
 
-.a-hamurguesa:hover {
-    color: #ffffff;
-}
+        .logo-peque:visited {
+            color: #ffffff;
+        }
 
-nav > div > ul {
-    list-style: none;
-    padding: 20px;
-}
+        .logo-peque:active {
+            color: #ffffff;
+        }
 
-nav > div > ul > a > li:hover {
-    background-color: rgba(196, 194, 195, 0.84);
-}
+        .logo-peque:hover {
+            color: #ffffff;
+        }
 
-li {
-    font-weight: bold;
-    font-size: 1.1em;
-    color: rgb(24, 24, 24);
-}
+        .span-nav {
+            padding-top: 7px;
+            color: white;
+            font-size: 1.5em;
+        }
 
-/*
-.fijo {
-    position: fixed;
-    z-index: 100;
-    top: 0;
-}
-*/
+        .lista {
+            background-color: #fff;
+            display: none;
+            margin-right: 41px;
+            margin-top: -36px;
+        }
 
+        .fondo-nav-hamburguesa {
+            background-color: #fff;
+            color: #292929;
+            padding: 6px;
+        }
 
-/*Pantallas Grandes*/
+        .lista>a :visited {
+            color: #ffffff;
+        }
 
-.estilo {
-    height: 50px;
-}
+        .a-hamburguesa:visited {
+            color: #ffffff;
+        }
 
-.fondo-nav {
-    background-color: rgb(24, 24, 24);
-}
+        .a-hamburguesa:active {
+            color: #ffffff;
+        }
 
-.logo-nav {
- 
-    font-size: 1.8em;
-    color: #ffffff;
-    font-family: 'Pacifico', cursive;
-/*    display: none;*/
-}
-.logo-nav:visited {color: rgba(255, 255, 255);}
-.logo-nav:active {color: rgba(255, 255, 255);}
-.logo-nav:hover {color: rgba(255, 255, 255, 0.69);}
+        .a-hamurguesa:hover {
+            color: #ffffff;
+        }
 
-.links {
-    height: 100%;
-}
+        nav>div>ul {
+            list-style: none;
+            padding: 20px;
+        }
 
-.links > div {
-    height: 100%;
-}
+        nav>div>ul>a>li:hover {
+            background-color: rgba(196, 194, 195, 0.84);
+        }
 
-.links > div > div {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-left: 24px;
-}
-
-.links > div > div > a {
-    padding: 5px;
-
-}
-
-.a-grande:visited {
-    color: rgba(255, 255, 255);
-}
-
-.a-grande:active {
-    color: rgba(255, 255, 255);
-}
-
-.a-grande:hover {
-   color: rgba(255, 255, 255, 0.69);
-}
-
-.a-grande {
-    font-weight: bold;
-    font-size: 1.1em;
-    color: rgb(255, 255, 255);
-}
-
-/* -----fin navs----- */
-
-/* -----inicio carousel----- */
-.largo{
-    height:  5em;
-}
-
-.p0,
-.p1,
-.p2,
-.p3 {
-    display: none;
-    text-indent: 10%;
-}
-
-.active {
-    display: block;
-}
-
-/*fin carousel*/
-
-/* inicio horario*/
-
-.horario {
-
-   background: rgb(198,137,207);
-background: linear-gradient(90deg, rgba(198,137,207,0.5) 20%, rgba(179,161,235,0.5) 73%);
-}
-}
-
-.centro {
-    width: auto;
-
-}
-
-.power {
-    background-color: rgba(0, 160, 234, 0.44);
-}
-
-.power:hover {
-    background-color: rgba(0, 160, 235, 0.65);
-}
-
-.shameless {
-    background-color: rgba(225, 45, 45, 0.55);
-}
-
-.shameless:hover {
-    background-color: rgba(226, 3, 5, 0.55);
-}
-
-.hood {
-    background-color: rgba(125, 202, 141, 0.7);
-}
-
-.hood:hover {
-    background-color: rgba(125, 202, 161, 1);
-}
-
-.gravity {
-    background-color: rgba(47, 45, 35, 0.50);
-    color: white;
-}
-
-.gravity:hover {
-    background-color: rgba(47, 45, 55, 0.70);
-}
-
-.mobster {
-    
-    background-color: rgba(237, 227, 115, 0.74);
-}
-
-.mobster:hover {
-   
-    background-color: rgba(237, 227, 115, 1);
-}
-
-.proximo {
-    background-color: rgba(255, 61, 157, 0.6);
-    color: white;
-}
-
-.proximo:hover {
-    background-color: rgba(255, 61, 149, 0.70);
-}
-
-.sombra, .sombra2{
-    box-shadow: 0 3px 6px #909090;
-}
-
-.sombra:hover{
-     box-shadow: 0 3px 20px #909090;
-    transition: 0.3s;
-}
-
-.animado {
-    width: 300px;
-}
-
-.img-tarjeta-horario {
-    width: 100%;
-    padding: 20px;
-    border-radius: 23px;
-}
-/* fin horario */
-
-/* Inicio Galeria*/
-.tarjeta-3-fondo {
-    background-color: rgba(211, 211, 211, 0.54);
-    color: #242424;
-     
-}
-
-.img-tarjeta-3fotos {
-    width: 100%;
-    padding: 20px;
-    border-radius: 23px;
-}
+        li {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: rgb(24, 24, 24);
+        }
 
 
-/* Fin Galeria*/
+        
+        /*Pantallas Grandes*/
+        .estilo {
+            height: 50px;
+        }
 
-/* Inicio Donde Estamos*/
+        .fondo-nav {
+            background-color: rgb(24, 24, 24);
+        }
 
-.mapa {
-    width: 100%;
-    height: 24em;
-}
+        .logo-nav {
+            font-size: 1.8em;
+            color: #ffffff;
+            font-family: 'Pacifico', cursive;
+            /*    display: none;*/
+        }
 
-/* Fin Donde Estamos*/
+        .logo-nav:visited {
+            color: rgba(255, 255, 255);
+        }
+
+        .logo-nav:active {
+            color: rgba(255, 255, 255);
+        }
+
+        .logo-nav:hover {
+            color: rgba(255, 255, 255, 0.69);
+        }
+
+        .links {
+            height: 100%;
+        }
+
+        .links>div {
+            height: 100%;
+        }
+
+        .links>div>div {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-left: 24px;
+        }
+
+        .links>div>div>a {
+            padding: 5px;
+        }
+
+        .a-grande:visited {
+            color: rgba(255, 255, 255);
+        }
+
+        .a-grande:active {
+            color: rgba(255, 255, 255);
+        }
+
+        .a-grande:hover {
+            color: rgba(255, 255, 255, 0.69);
+        }
+
+        .a-grande {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: rgb(255, 255, 255);
+        }
+        /* -----fin navs----- */
+
+        
+        /* -----inicio carousel----- */
+        .p0,
+        .p1,
+        .p2,
+        .p3 {
+            display: none;
+            text-indent: 10%;
+        }
+
+        .active {
+            display: block;
+        }
+        /*fin carousel*/
+
+        
+        /* inicio horario*/
+        .horario {
+            background: rgb(198, 137, 207);
+            background: linear-gradient(90deg, rgba(198, 137, 207, 0.5) 20%, rgba(179, 161, 235, 0.5) 73%);
+        }
+
+        .centro {
+            width: auto;
+        }
+
+        .power {
+            background-color: rgba(0, 160, 234, 0.44);
+        }
+
+        .power:hover {
+            background-color: rgba(0, 160, 235, 0.65);
+        }
+
+        .shameless {
+            background-color: rgba(225, 45, 45, 0.55);
+        }
+
+        .shameless:hover {
+            background-color: rgba(226, 3, 5, 0.55);
+        }
+
+        .hood {
+            background-color: rgba(125, 202, 141, 0.7);
+        }
+
+        .hood:hover {
+            background-color: rgba(125, 202, 161, 1);
+        }
+
+        .gravity {
+            background-color: rgba(47, 45, 35, 0.50);
+            color: white;
+        }
+
+        .gravity:hover {
+            background-color: rgba(47, 45, 55, 0.70);
+        }
+
+        .mobster {
+
+            background-color: rgba(237, 227, 115, 0.74);
+        }
+
+        .mobster:hover {
+
+            background-color: rgba(237, 227, 115, 1);
+        }
+
+        .proximo {
+            background-color: rgba(255, 61, 157, 0.6);
+            color: white;
+        }
+
+        .proximo:hover {
+            background-color: rgba(255, 61, 149, 0.70);
+        }
+
+        .sombra,
+        .sombra2 {
+            box-shadow: 0 3px 6px #909090;
+        }
+
+        .sombra:hover {
+            box-shadow: 0 3px 20px #909090;
+            transition: 0.3s;
+        }
+
+        .animado {
+            width: 300px;
+        }
+
+        .img-tarjeta-horario {
+            width: 100%;
+            padding: 20px;
+            border-radius: 23px;
+        }
+        /* fin horario */
+
+        
+        /* Inicio Galeria*/
+        .tarjeta-3-fondo {
+            background-color: rgba(211, 211, 211, 0.54);
+            color: #242424;
+        }
+
+        .img-tarjeta-3fotos {
+            width: 100%;
+            padding: 20px;
+            border-radius: 23px;
+        }
+        /* Fin Galeria*/
+
+        
+        /* Inicio Donde Estamos*/
+        .mapa {
+            width: 100%;
+            height: 24em;
+        }
+        /* Fin Donde Estamos*/

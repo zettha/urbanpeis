@@ -33,33 +33,29 @@
 </head>
 
 <body>
-    <!-- Fondo-inicio -->
-     <div class="header">
-    <div class="fondo-inicio d-flex align-content-center flex-wrap">
+     <!-- Fondo-inicio -->
+    <div class="fondo-inicio d-flex align-content-center flex-wrap header">
         <div class="logo-cont col-12">
             <p class="logo">UrbanPeis</p>
         </div>
-         <div class="slogan-cont">
+        <div class="slogan-cont">
             <p class="eslogan text-center">Siente, Vive, Baila</p>
         </div>
     </div>
-    </div>
 
     <!-- Navegador pantallas grandes -->
-    <div class="menu">
-<!--
-    <nav class="d-xs-none d-sm-none d-md-none d-lg-inline d-none estilo fijo">
+    <nav class="d-xs-none d-sm-none d-md-none d-lg-inline d-none estilo fijo menu">
         <div class="fondo-nav">
             <div class="container">
                 <div class="row">
                     <div class="col-4">
-                        <a class=" logo-nav m-0 py-0" href="#"> UrbanPeis </a>
+                        <a class="logo-nav m-0 py-0" href="#"> UrbanPeis </a>
                     </div>
                     <div class="col-8">
-                        <div class="links ">
+                        <div class="links">
                             <div class="row text-right justify-content-end">
                                 <div class="col- rounded"><a class="a-grande" href="#">Eventos</a></div>
-                                <div class=" col- rounded">
+                                <div class="col- rounded">
                                     <a class="a-grande" href="#">Grupos y horarios</a>
                                 </div>
                                 <div class="col- rounded"><a class="a-grande" href="#">Galeria</a></div>
@@ -72,18 +68,16 @@
             </div>
         </div>
     </nav>
--->
 
     <!-- Navegador pantallas movil Hamburguesa -->
-<!--
-    <section>
+    <section class="menu">
         <div class="fondo-nav">
             <div class="container">
                 <div class="row justify-content-end d-lg-none">
                     <div class="col"><a class="logo-peque ml-4" href="#">UP</a> </div>
                     <div class="col-auto12">
                         <div class="text-right">
-                            <div id="hamburguesa" class="span-nav ml-4">
+                            <div id="hamburguesa" class="span-nav ml-1">
                                 <i class="fas fa-bars mr-2"></i>
                             </div>
                         </div>
@@ -114,27 +108,11 @@
             </div>
         </div>
     </section>
--->
-   
-   
-  
-   
-
-
-</div>
-   
-   
-   
-   
-   
-   
-    <!-- este div engloba todo el cuerpo para crear el escrol necesario para que aparezca en nav -->
-    <div class="wrapper">
-    
     <!-- carousel -->
-        <div class="container margen-top ">
+  <div class="wrapper">
+          <div class="container">
             <section class=" section-carousel section-carousel ">
-                <div class="row justify-content-center ">
+                <div class="row justify-content-center">
                     <div class="col-12 col-md-9 ">
                         <div id="mi-carousel" class="carousel slide  " data-ride="carousel">
                             <div class="carousel-inner all ">
@@ -178,14 +156,14 @@
             </section>
         </div>
         <!-- Horario-->
-        <div class="section horario ">
-            <div class="container ">
-                <div class="row ">
+        <div class="section horario">
+            <div class="container">
+                <div class="row">
                     <div class="col-12 margen-top margen-bot">
-                        <p class="h1 ">Grupos y Horarios</p>
+                        <p class="h1">Grupos y Horarios</p>
                     </div>
                 </div>
-                <div class="row ">
+                <div class="row margen-bot">
                     <div class="col-xs-1 col-md-6">
                         <div class="row justify-content-center">
                             <div class="rounded my-4 power pb-3 animado text-center sombra">
@@ -199,18 +177,18 @@
                     </div>
                     <div class="col-xs-1 col-md-6">
                         <div class="row justify-content-center">
-                            <div class=" shameless rounded my-4 pb-3 animado text-center sombra">
+                            <div class="shameless rounded my-4 pb-3 animado text-center sombra">
                                 <div class="mb-2"><img class="img-tarjeta-horario" src="img/logos/logo1.png" alt=""></div>
                                 <p>SHAMELESS</p>
                                 <p>Nivel 2</p>
-                                <p> de 8 a 11 Años</p>
+                                <p>de 8 a 11 Años</p>
                                 <p>Lunes 18:30-20:00</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-1 col-md-6">
                         <div class="row justify-content-center text-center">
-                            <div class=" hood rounded my-4 pb-3 animado sombra">
+                            <div class="hood rounded my-4 pb-3 animado sombra">
                                 <div class="mb-2"><img class="img-tarjeta-horario" src="img/logos/logo1.png" alt=""></div>
                                 <p>DA HOOD</p>
                                 <p>Nivel 3</p>
@@ -221,11 +199,11 @@
                     </div>
                     <div class="col-xs-1 col-md-6">
                         <div class="row justify-content-center text-center">
-                            <div class=" gravity rounded my-4 pb-3 animado sombra">
+                            <div class="gravity rounded my-4 pb-3 animado sombra">
                                 <div class="mb-2"><img class="img-tarjeta-horario" src="img/logos/logo1.png" alt=""></div>
                                 <p>GRAVITY</p>
                                 <p>Nivel 4</p>
-                                <p> más de 13 Años</p>
+                                <p>más de 13 Años</p>
                                 <p>Miercoles 16:00-18:00</p>
                             </div>
                         </div>
@@ -257,72 +235,28 @@
         </div>
         
         <!-- Galeria -->
-        <div class="section justify-content-end  ">
+        <div class="section justify-content-end">
             <div class="container">
                 <div class="row margen-top margen-bot">
                     <div class="col-12">
-                        <p class="h1 ">Galeria</p>
+                        <p class="h1">Galeria</p>
                     </div>
                 </div>
-                <div class="row ">
+                <div class="row">
                     <div class="col-12">
                         <p class="h3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
-                <div class="row  text-center ">
+                <div class="row text-center">
                     <div class="col-12 col-md-4 mb-4">
-                        <div class="tarjeta-3-fondo rounded  pb-3 m-auto sombra2">
-                            <div ><img class="img-tarjeta-3fotos" src="img/slider/1.jpg" alt=""></div>
+                        <div class="tarjeta-3-fondo rounded pb-3 m-auto sombra2">
+                            <div><img class="img-tarjeta-3fotos" src="img/slider/1.jpg" alt=""></div>
                             <p>Lorem ipsum dolor sit amet</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-4 mb-4">
-                        <div class="tarjeta-3-fondo rounded  pb-3 m-auto sombra2">
-                            <div ><img class="img-tarjeta-3fotos" src="img/slider/1.jpg" alt=""></div>
-                            <p>Lorem ipsum dolor sit amet</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="tarjeta-3-fondo rounded  pb-3 m-auto sombra2">
-                            <div ><img class="img-tarjeta-3fotos" src="img/slider/1.jpg" alt=""></div>
-                            <p>Lorem ipsum dolor sit amet</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <p class="h3 mt-5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="row  text-center ">
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="tarjeta-3-fondo rounded  pb-3 m-auto sombra2">
-                            <div ><img class="img-tarjeta-3fotos" src="img/slider/1.jpg" alt=""></div>
-                            <p>Lorem ipsum dolor sit amet</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="tarjeta-3-fondo rounded  pb-3 m-auto sombra2">
-                            <div ><img class="img-tarjeta-3fotos" src="img/slider/1.jpg" alt=""></div>
-                            <p>Lorem ipsum dolor sit amet</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="tarjeta-3-fondo rounded  pb-3 m-auto sombra2">
-                            <div ><img class="img-tarjeta-3fotos" src="img/slider/1.jpg" alt=""></div>
-                            <p>Lorem ipsum dolor sit amet</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <p class="h3 mt-5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="row  text-center">
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="tarjeta-3-fondo rounded  pb-3 m-auto sombra2">
-                            <div ><img class="img-tarjeta-3fotos" src="img/slider/1.jpg" alt=""></div>
+                        <div class="tarjeta-3-fondo rounded pb-3 m-auto sombra2">
+                            <div><img class="img-tarjeta-3fotos" src="img/slider/1.jpg" alt=""></div>
                             <p>Lorem ipsum dolor sit amet</p>
                         </div>
                     </div>
@@ -332,9 +266,53 @@
                             <p>Lorem ipsum dolor sit amet</p>
                         </div>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="h3 mt-5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="row text-center">
                     <div class="col-12 col-md-4 mb-4">
                         <div class="tarjeta-3-fondo rounded  pb-3 m-auto sombra2">
-                            <div ><img class="img-tarjeta-3fotos" src="img/slider/1.jpg" alt=""></div>
+                            <div><img class="img-tarjeta-3fotos" src="img/slider/1.jpg" alt=""></div>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="tarjeta-3-fondo rounded pb-3 m-auto sombra2">
+                            <div><img class="img-tarjeta-3fotos" src="img/slider/1.jpg" alt=""></div>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="tarjeta-3-fondo rounded pb-3 m-auto sombra2">
+                            <div><img class="img-tarjeta-3fotos" src="img/slider/1.jpg" alt=""></div>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="h3 mt-5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="tarjeta-3-fondo rounded pb-3 m-auto sombra2">
+                            <div><img class="img-tarjeta-3fotos" src="img/slider/1.jpg" alt=""></div>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="tarjeta-3-fondo rounded pb-3 m-auto sombra2">
+                            <div><img class="img-tarjeta-3fotos" src="img/slider/1.jpg" alt=""></div>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="tarjeta-3-fondo rounded pb-3 m-auto sombra2">
+                            <div><img class="img-tarjeta-3fotos" src="img/slider/1.jpg" alt=""></div>
                             <p>Lorem ipsum dolor sit amet</p>
                         </div>
                     </div>
