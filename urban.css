@@ -148,20 +148,21 @@
             padding-top: 7px;
             color: #f5f0f0;
             font-size: 1.5em;
+            margin: 1 solid red;
         }
 
         .lista {
             background-color: #fff;
             display: none;
-            margin-right: 41px;
-            margin-top: -36px;
+            margin-right: 57px;
+            margin-top: -52px;
         }
 
-        .fondo-nav-hamburguesa {
+        .fondo-nav-hamburguesa { /*Una vez aplicado el js (con el menu desplegado) */
+
             background-color: #fff;
            color: #292929;
-          
-            padding: 6px;
+            padding: 14px;
         }
 
         .lista>a :visited {
@@ -197,7 +198,10 @@
             letter-spacing: 0.07em;
         }
 
-
+i{
+   
+    padding: 14px;
+}
         
         /*Pantallas Grandes*/
         .estilo {
