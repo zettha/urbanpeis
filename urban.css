@@ -1,392 +1,403 @@
  .header {
-              width: 100%;
-        }
+     width: 100%;
+ }
 
-        .menu {
-            z-index: 100;
-            top: 0;
-        }
+ .menu {
+     z-index: 100;
+     top: 0;
+ }
 
-        .wrapper {
-            height: 100%;
-            width: 100%;
-            z-index: -100;
-           padding-top: 20px;
-        }
+ .wrapper {
+     height: 100%;
+     width: 100%;
+     z-index: -100;
+     padding-top: 20px;
+ }
 
-        .fixed {
-            position: fixed;
-            top: 0;
-            width: 100%;
-        }
+ .fixed {
+     position: fixed;
+     top: 0;
+     width: 100%;
+ }
 
-        * {
-            padding: 0;
-            margin: 0;
-        }
+ * {
+     padding: 0;
+     margin: 0;
+ }
 
-        body {
-            overflow-x: hidden;
-            background-color: white;
-            color: rgb(24, 24, 24);
-        }
+ body {
+     overflow-x: hidden;
+     background-color: white;
+     color: rgb(24, 24, 24);
+ }
 
-        a:link {
-            text-decoration: none;
-        }
+ a:link {
+     text-decoration: none;
+ }
 
-        .margen-top {
-            margin-top: 2em;
-        }
+ .margen-top {
+     margin-top: 2em;
+ }
 
-        .margen-bot {
-            margin-bottom: 1em;
-        }
+ .margen-bot {
+     margin-bottom: 1em;
+ }
 
-        /*Inicio Fuentes*/
-        p,
-        a {
-            font-family: 'Poppins', sans-serif;
-            font-size: 16px;
-        }
+ /*Inicio Fuentes*/
 
-        .h1 {
-            font-family: 'Pacifico', cursive;
-            font-size: 3.7em;
-        }
+ p,
+ a {
+     font-family: 'Poppins', sans-serif;
+     font-size: 16px;
+ }
 
-        .h3 {
-            font-weight: 600;
-            font-size: 1.5em;
-        }
+ .h1 {
+     font-family: 'Pacifico', cursive;
+     font-size: 3.7em;
+ }
 
-        .largo {
-            height: 375px;
-        }
+ .h3 {
+     font-weight: 600;
+     font-size: 1.5em;
+ }
 
-        .logo {
-            color: #fff;
-            font-family: 'Pacifico', cursive;
-            font-size: 7em;
-            display: block;
-            text-align: center;
-            text-shadow: 0px 3px 6px #333;
-        }
+ .largo {
+     height: 375px;
+ }
 
-        @media (max-width: 600px) {
-            .h1 {
-                font-weight: 500;
-                font-size: 2.5em;
-            }
-            .h3 {
-                font-weight: 500;
-                font-size: 1.1em;
-            }
-            .largo {
-                height: 6.5em;
-            }
-            .logo {
-                font-size: 4em;
-            }
-        }
-        /*Fin Fuente*/
-        
-        
-        
-        /*Inicio Cabecera*/
+ .logo {
+     color: #fff;
+     font-family: 'Pacifico', cursive;
+     font-size: 7em;
+     display: block;
+     text-align: center;
+     text-shadow: 0px 3px 6px #333;
+ }
 
-        .fondo-inicio {
-            width: 100%;
-            height: 790px;
-            background: rgb(167, 95, 181);
-            background: linear-gradient(90deg, rgba(167, 95, 181, 1) 0%, rgba(231, 181, 234, 1) 50%, rgba(140, 145, 236, 1) 100%);
-        }
+ @media (max-width: 600px) {
+     .h1 {
+         font-weight: 500;
+         font-size: 2.5em;
+     }
+     .h3 {
+         font-weight: 500;
+         font-size: 1.1em;
+     }
+     .largo {
+         height: 6.5em;
+     }
+     .logo {
+         font-size: 4em;
+     }
+ }
 
-        /*.logo-cont,*/
+ /*Fin Fuente*/
 
-        .slogan-cont {
-            width: 100%;
-        }
+ /*Inicio Cabecera*/
 
-        .largo-logo {
-            height: 777px;
-        }
+ .fondo-inicio {
+     width: 100%;
+     height: 790px;
+     background: rgb(167, 95, 181);
+     background: linear-gradient(90deg, rgba(167, 95, 181, 1) 0%, rgba(231, 181, 234, 1) 50%, rgba(140, 145, 236, 1) 100%);
+ }
 
-        .eslogan {
-            color: #fff;
-            font-family: 'Pacifico', cursive;
-            font-size: 1.8em;
-            text-shadow: 0px 3px 6px #333;
-        }
+ /*.logo-cont,*/
 
-        /*Fin Cabecera*/
+ .slogan-cont {
+     width: 100%;
+ }
 
-        /* -----inicio navs-----*/
+ .largo-logo {
+     height: 777px;
+ }
 
-        /*Pantallas pequeñas*/
+ .eslogan {
+     color: #fff;
+     font-family: 'Pacifico', cursive;
+     font-size: 1.8em;
+     text-shadow: 0px 3px 6px #333;
+ }
 
-        .logo-peque {
-            font-size: 2.1em;
-            color: #ffffff;
-            font-family: 'Pacifico', cursive;
-            padding-top: 7px;
-        }
+ /*Fin Cabecera*/
 
-        .logo-peque:visited {
-            color: #ffffff;
-        }
+ /* -----inicio navs-----*/
 
-        .logo-peque:active {
-            color: #ffffff;
-        }
+ /*Pantallas pequeñas*/
 
-        .logo-peque:hover {
-            color: #ffffff;
-        }
+ .logo-peque {
+     font-size: 2.5em;
+     color: #ffffff;
+     font-family: 'Pacifico', cursive; 
+ }
 
-        .span-nav {
-            padding-top: 7px;
-            color: #f5f0f0;
-            font-size: 1.5em;
-     
-        }
-
-        .lista {
-            background-color: #fff;
-            display: none;
-            margin-right: 57px;
-            margin-top: -52px;
-        }
-
-        .fondo-nav-hamburguesa { /*Una vez aplicado el js (con el menu desplegado) */
-
-            background-color: #fff;
-           color: #292929;
-            padding: 14px;
-        }
-
-        .lista>a :visited {
-            color: #ffffff;
-        }
-
-        .a-hamburguesa:visited {
-            color: #ffffff;
-        }
-
-        .a-hamburguesa:active {
-            color: #ffffff;
-        }
-
-        .a-hamurguesa:hover {
-            color: #ffffff;
-        }
-
-        ul {
-            list-style: none;
-            padding: 15px;
-            line-height: 2em;
-        }
-
-      li:hover {
-            background-color: rgba(196, 194, 195, 0.84);
-        }
-
-        li {
-            font-weight: 500;
-            font-size: 1.1em;
-            color: rgb(24, 24, 24);
-            letter-spacing: 0.07em;
-        }
-
-i{
-   
-    padding: 14px;
+.aparece{
+     display: none;
 }
-        
-        /*Pantallas Grandes*/
-        .estilo {
-            height: 50px;
-        }
 
-        .fondo-nav {
-            background-color: rgb(24, 24, 24);
-        }
 
-        .logo-nav {
-            font-size: 1.8em;
-            color: #ffffff;
-            font-family: 'Pacifico', cursive;
-            /*    display: none;*/
-        }
+ .logo-peque:visited {
+     color: #ffffff;
+ }
 
-        .logo-nav:visited {
-            color: rgba(255, 255, 255);
-        }
+ .logo-peque:active {
+     color: #ffffff;
+ }
 
-        .logo-nav:active {
-            color: rgba(255, 255, 255);
-        }
+ .logo-peque:hover {
+     color: #ffffff;
+ }
 
-        .logo-nav:hover {
-            color: rgba(255, 255, 255, 0.69);
-        }
+ .span-nav {
+     padding-top: 7px;
+     color: #f5f0f0;
+     font-size: 1.5em;
 
-        .links {
-            height: 100%;
-        }
+ }
 
-        .links>div {
-            height: 100%;
-        }
+ .lista {
+     background-color: #fff;
+     display: none;
+     margin-right: 57px;
+     margin-top: -52px;
+ }
 
-        .links>div>div {
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-            margin-left: 24px;
-        }
+ .fondo-nav-hamburguesa {
+     /*Una vez aplicado el js (con el menu desplegado) */
+     background-color: #fff;
+     color: #292929;
+     padding: 14px;
+ }
 
-        .links>div>div>a {
-            padding: 5px;
-        }
+ .lista > a :visited {
+     color: #ffffff;
+ }
 
-        .a-grande:visited {
-            color: rgba(255, 255, 255);
-        }
+ .a-hamburguesa:visited {
+     color: #ffffff;
+ }
 
-        .a-grande:active {
-            color: rgba(255, 255, 255);
-        }
+ .a-hamburguesa:active {
+     color: #ffffff;
+ }
 
-        .a-grande:hover {
-            color: rgba(255, 255, 255, 0.69);
-        }
+ .a-hamurguesa:hover {
+     color: #ffffff;
+ }
 
-        .a-grande {
-            font-weight: bold;
-            font-size: 1.1em;
-            color: rgb(255, 255, 255);
-        }
-        /* -----fin navs----- */
+ ul {
+     list-style: none;
+     padding: 6px;
+ }
 
-        
-        /* -----inicio carousel----- */
-        .p0,
-        .p1,
-        .p2,
-        .p3 {
-            display: none;
-            text-indent: 10%;
-        }
+ li:hover {
+     background-color: rgba(196, 194, 195, 0.84);
+     transition: 0.3s;
+ }
 
-        .active {
-            display: block;
-        }
-        /*fin carousel*/
+ li {
+     font-weight: 500;
+     font-size: 1.1em;
+     color: rgb(24, 24, 24);
+     letter-spacing: 0.05em;
+     padding: 12px 12px;
+ }
 
-        
-        /* inicio horario*/
-        .horario {
-            background: rgb(198, 137, 207);
-            background: linear-gradient(90deg, rgba(198, 137, 207, 0.5) 20%, rgba(179, 161, 235, 0.5) 73%);
-        }
+ i {
 
-        .centro {
-            width: auto;
-        }
+     padding: 14px;
+ }
 
-        .power {
-            background-color: rgba(0, 160, 234, 0.44);
-        }
+ /*Pantallas Grandes*/
 
-        .power:hover {
-            background-color: rgba(0, 160, 235, 0.65);
-        }
+ .estilo {
+     height: 50px;
+ }
 
-        .shameless {
-            background-color: rgba(225, 45, 45, 0.55);
-        }
+ .fondo-nav {
+     background-color: rgb(24, 24, 24);
+ }
 
-        .shameless:hover {
-            background-color: rgba(226, 3, 5, 0.55);
-        }
+ .logo-nav {
+     font-size: 1.8em;
+     color: #ffffff;
+     font-family: 'Pacifico', cursive;
+     /*    display: none;*/
+ }
 
-        .hood {
-            background-color: rgba(125, 202, 141, 0.7);
-        }
+ .logo-nav:visited {
+     color: rgba(255, 255, 255);
+ }
 
-        .hood:hover {
-            background-color: rgba(125, 202, 161, 1);
-        }
+ .logo-nav:active {
+     color: rgba(255, 255, 255);
+ }
 
-        .gravity {
-            background-color: rgba(47, 45, 35, 0.50);
-            color: white;
-        }
+ .logo-nav:hover {
+     color: rgba(255, 255, 255, 0.69);
+ }
 
-        .gravity:hover {
-            background-color: rgba(47, 45, 55, 0.70);
-        }
+ .links {
+     height: 100%;
+ }
 
-        .mobster {
+ .links > div {
+     height: 100%;
+ }
 
-            background-color: rgba(237, 227, 115, 0.74);
-        }
+ .links > div > div {
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     margin-left: 24px;
+ }
 
-        .mobster:hover {
+ .links > div > div > a {
+     padding: 5px;
+ }
 
-            background-color: rgba(237, 227, 115, 1);
-        }
+ .a-grande:visited {
+     color: rgba(255, 255, 255);
+ }
 
-        .proximo {
-            background-color: rgba(255, 61, 157, 0.6);
-            color: white;
-        }
+ .a-grande:active {
+     color: rgba(255, 255, 255);
+ }
 
-        .proximo:hover {
-            background-color: rgba(255, 61, 149, 0.70);
-        }
+ .a-grande:hover {
+     color: rgba(255, 255, 255, 0.69);
+ }
 
-        .sombra,
-        .sombra2 {
-            box-shadow: 0 3px 6px #909090;
-        }
+ .a-grande {
+     font-weight: bold;
+     font-size: 1.1em;
+     color: rgb(255, 255, 255);
+ }
 
-        .sombra:hover {
-            box-shadow: 0 3px 20px #909090;
-            transition: 0.3s;
-        }
+ /* -----fin navs----- */
 
-        .animado {
-            width: 300px;
-        }
+ /* -----inicio carousel----- */
 
-        .img-tarjeta-horario {
-            width: 100%;
-            padding: 20px;
-            border-radius: 23px;
-        }
-        /* fin horario */
+ .p0,
+ .p1,
+ .p2,
+ .p3 {
+     display: none;
+     text-indent: 10%;
+ }
 
-        
-        /* Inicio Galeria*/
-        .tarjeta-3-fondo {
-            background-color: rgba(211, 211, 211, 0.54);
-            color: #242424;
-        }
+ .active {
+     display: block;
+ }
 
-        .img-tarjeta-3fotos {
-            width: 100%;
-            padding: 20px;
-            border-radius: 23px;
-        }
-        /* Fin Galeria*/
+ /*fin carousel*/
 
-        
-        /* Inicio Donde Estamos*/
-        .mapa {
-            width: 100%;
-            height: 24em;
-        }
-        /* Fin Donde Estamos*/
+ /* inicio horario*/
+
+ .horario {
+     background: rgb(198, 137, 207);
+     background: linear-gradient(90deg, rgba(198, 137, 207, 0.5) 20%, rgba(179, 161, 235, 0.5) 73%);
+ }
+
+ .centro {
+     width: auto;
+ }
+
+ .power {
+     background-color: rgba(0, 160, 234, 0.44);
+ }
+
+ .power:hover {
+     background-color: rgba(0, 160, 235, 0.65);
+ }
+
+ .shameless {
+     background-color: rgba(225, 45, 45, 0.55);
+ }
+
+ .shameless:hover {
+     background-color: rgba(226, 3, 5, 0.55);
+ }
+
+ .hood {
+     background-color: rgba(125, 202, 141, 0.7);
+ }
+
+ .hood:hover {
+     background-color: rgba(125, 202, 161, 1);
+ }
+
+ .gravity {
+     background-color: rgba(47, 45, 35, 0.50);
+     color: white;
+ }
+
+ .gravity:hover {
+     background-color: rgba(47, 45, 55, 0.70);
+ }
+
+ .mobster {
+
+     background-color: rgba(237, 227, 115, 0.74);
+ }
+
+ .mobster:hover {
+
+     background-color: rgba(237, 227, 115, 1);
+ }
+
+ .proximo {
+     background-color: rgba(255, 61, 157, 0.6);
+     color: white;
+ }
+
+ .proximo:hover {
+     background-color: rgba(255, 61, 149, 0.70);
+ }
+
+ .sombra,
+ .sombra2 {
+     box-shadow: 0 3px 6px #909090;
+ }
+
+ .sombra:hover {
+     box-shadow: 0 3px 20px #909090;
+     transition: 0.3s;
+ }
+
+ .animado {
+     width: 300px;
+ }
+
+ .img-tarjeta-horario {
+     width: 100%;
+     padding: 20px;
+     border-radius: 23px;
+ }
+
+ /* fin horario */
+
+ /* Inicio Galeria*/
+
+ .tarjeta-3-fondo {
+     background-color: rgba(211, 211, 211, 0.54);
+     color: #242424;
+ }
+
+ .img-tarjeta-3fotos {
+     width: 100%;
+     padding: 20px;
+     border-radius: 23px;
+ }
+
+ /* Fin Galeria*/
+
+ /* Inicio Donde Estamos*/
+
+ .mapa {
+     width: 100%;
+     height: 24em;
+ }
+
+ /* Fin Donde Estamos*/
