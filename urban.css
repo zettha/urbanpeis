@@ -146,7 +146,7 @@
 
         .span-nav {
             padding-top: 7px;
-            color: white;
+            color: #f5f0f0;
             font-size: 1.5em;
         }
 
@@ -159,7 +159,8 @@
 
         .fondo-nav-hamburguesa {
             background-color: #fff;
-            color: #292929;
+           color: #292929;
+          
             padding: 6px;
         }
 
@@ -179,19 +180,21 @@
             color: #ffffff;
         }
 
-        nav>div>ul {
+        ul {
             list-style: none;
-            padding: 20px;
+            padding: 15px;
+            line-height: 2em;
         }
 
-        nav>div>ul>a>li:hover {
+      li:hover {
             background-color: rgba(196, 194, 195, 0.84);
         }
 
         li {
-            font-weight: bold;
+            font-weight: 500;
             font-size: 1.1em;
             color: rgb(24, 24, 24);
+            letter-spacing: 0.07em;
         }
 
 
