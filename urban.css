@@ -1,5 +1,6 @@
  .header {
      width: 100%;
+     padding-top: 20%;
  }
 
  .menu {
@@ -94,23 +95,23 @@
  /*Fin Fuente*/
 
  /*Inicio Cabecera*/
-
- .fondo-inicio {
-     width: 100%;
-     height: 790px;
-     background: rgb(167, 95, 181);
+.fondo-inicio{
+    height: 100vh;
+    background: rgb(167, 95, 181);
      background: linear-gradient(90deg, rgba(167, 95, 181, 1) 0%, rgba(231, 181, 234, 1) 50%, rgba(140, 145, 236, 1) 100%);
- }
+}
 
- /*.logo-cont,*/
+
 
  .slogan-cont {
      width: 100%;
  }
 
+
  .largo-logo {
      height: 777px;
  }
+
 
  .eslogan {
      color: #fff;
