@@ -1,6 +1,6 @@
  .header {
      width: 100%;
-     padding-top: 20%;
+     padding-top: 21%;
  }
 
  .menu {
@@ -90,6 +90,10 @@
      .logo {
          font-size: 4em;
      }
+     
+     .header{
+          padding-top: 70%;
+     }
  }
 
  /*Fin Fuente*/
@@ -119,11 +123,10 @@
      font-size: 1.8em;
      text-shadow: 0px 3px 6px #333;
  }
-
  /*Fin Cabecera*/
 
- /* -----inicio navs-----*/
 
+ /* -----inicio navs-----*/
  /*Pantallas pequeñas*/
 
  .logo-peque {
@@ -153,7 +156,6 @@
      padding-top: 7px;
      color: #f5f0f0;
      font-size: 1.5em;
-
  }
 
  .lista {
@@ -205,12 +207,11 @@
  }
 
  i {
-
      padding: 14px;
  }
 
- /*Pantallas Grandes*/
 
+ /*Pantallas Grandes*/
  .estilo {
      height: 50px;
  }
@@ -223,7 +224,6 @@
      font-size: 1.8em;
      color: #ffffff;
      font-family: 'Pacifico', cursive;
-     /*    display: none;*/
  }
 
  .logo-nav:visited {
@@ -275,11 +275,10 @@
      font-size: 1.1em;
      color: rgb(255, 255, 255);
  }
-
  /* -----fin navs----- */
 
- /* -----inicio carousel----- */
 
+ /* -----inicio carousel----- */
  .p0,
  .p1,
  .p2,
@@ -291,11 +290,10 @@
  .active {
      display: block;
  }
-
  /*fin carousel*/
 
- /* inicio horario*/
 
+ /* inicio horario*/
  .horario {
      background: rgb(198, 137, 207);
      background: linear-gradient(90deg, rgba(198, 137, 207, 0.5) 20%, rgba(179, 161, 235, 0.5) 73%);
@@ -376,11 +374,10 @@
      padding: 20px;
      border-radius: 23px;
  }
-
  /* fin horario */
 
- /* Inicio Galeria*/
 
+ /* Inicio Galeria*/
  .tarjeta-3-fondo {
      background-color: rgba(211, 211, 211, 0.54);
      color: #242424;
@@ -391,8 +388,8 @@
      padding: 20px;
      border-radius: 23px;
  }
-
  /* Fin Galeria*/
+
 
  /* Inicio Donde Estamos*/
 
@@ -400,5 +397,4 @@
      width: 100%;
      height: 24em;
  }
-
  /* Fin Donde Estamos*/
