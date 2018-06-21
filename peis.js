@@ -39,6 +39,7 @@ function posicionarMenu() {
 
     if ($(window).scrollTop() >= altura_del_header){
         $('.menu').addClass('fixed');
+          $('#lp').removeClass('aparece');
         $('.wrapper').css('margin-top', (altura_del_menu) + 'px');
     } else {
         $('.menu').removeClass('fixed');
