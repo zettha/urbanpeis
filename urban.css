@@ -1,3 +1,19 @@
+* {
+     padding: 0;
+     margin: 0;
+ }
+
+ body {
+     overflow-x: hidden;
+     background-color: white;
+     color: rgb(24, 24, 24);
+ }
+
+
+ a:link {
+     text-decoration: none;
+ }
+
  .header {
      width: 100%;
      padding-top: 21%;
@@ -21,21 +37,6 @@
      width: 100%;
  }
 
- * {
-     padding: 0;
-     margin: 0;
- }
-
- body {
-     overflow-x: hidden;
-     background-color: white;
-     color: rgb(24, 24, 24);
- }
-
- a:link {
-     text-decoration: none;
- }
-
  .margen-top {
      margin-top: 2em;
  }
@@ -48,32 +49,30 @@
 
  p,
  a {
-     font-family: 'Poppins', sans-serif;
-     font-size: 16px;
+     font-size: 21px;
+
  }
 
- .h1 {
+.font-pacifico{
      font-family: 'Pacifico', cursive;
-     font-size: 3.7em;
+}
+ .h1 {
+     font-size: 32px;
  }
 
- .h3 {
-     font-weight: 600;
-     font-size: 1.5em;
- }
-
- .largo {
-     height: 375px;
+ .h5 {
+    color: rgba(0, 0, 0, 0.62);
  }
 
  .logo {
-     color: #fff;
-     font-family: 'Pacifico', cursive;
      font-size: 7em;
-     display: block;
-     text-align: center;
      text-shadow: 0px 3px 6px #333;
  }
+
+.letra-footer{
+    font-size: 16px;
+  
+}
 
  @media (max-width: 600px) {
      .h1 {
@@ -84,9 +83,6 @@
          font-weight: 500;
          font-size: 1.1em;
      }
-     .largo {
-         height: 6.5em;
-     }
      .logo {
          font-size: 4em;
      }
@@ -94,9 +90,44 @@
      .header{
           padding-top: 70%;
      }
+     
+     .letra-footer{
+    font-size: 12px;
+}
+ }
+ /*Fin Fuente*/
+
+
+ /*Inicio Colores*/
+ .fondo-rosa {
+     background: rgb(198, 137, 207);
+     background: linear-gradient(90deg, rgba(198, 137, 207, 0.5) 20%, rgba(179, 161, 235, 0.5) 73%);
  }
 
- /*Fin Fuente*/
+.fondo-footer{
+    background-color: rgba(103, 16, 158, 0.86);
+}
+
+ .fondo-negro {
+     background-color: rgb(24, 24, 24);
+ }
+
+ .fondo-hamburguesa {
+     /*Una vez aplicado el js (con el menu desplegado) */
+background-color: #fff;
+    color: rgb(24, 24, 24);
+      padding: 5px;
+ }
+
+.letra-blanca{
+    color: #fff;
+}
+
+.letra-negra{
+     color: rgb(24, 24, 24);
+}
+ /*Fin Colores*/
+
 
  /*Inicio Cabecera*/
 .fondo-inicio{
@@ -105,24 +136,17 @@
      background: linear-gradient(90deg, rgba(167, 95, 181, 1) 0%, rgba(231, 181, 234, 1) 50%, rgba(140, 145, 236, 1) 100%);
 }
 
-
-
- .slogan-cont {
-     width: 100%;
- }
-
-
- .largo-logo {
-     height: 777px;
- }
-
-
  .eslogan {
-     color: #fff;
-     font-family: 'Pacifico', cursive;
-     font-size: 1.8em;
+     font-size: 32px;
      text-shadow: 0px 3px 6px #333;
  }
+.arrow{
+ padding-top: 30vh;
+}
+.arrow > i{
+     font-size: 42px;
+      text-shadow: 0px 3px 3px #333;
+}
  /*Fin Cabecera*/
 
 
@@ -130,15 +154,13 @@
  /*Pantallas pequeñas*/
 
  .logo-peque {
-     font-size: 2.5em;
-     color: #ffffff;
-     font-family: 'Pacifico', cursive; 
+     margin-top: 10px;
+      line-height: 0px;
  }
 
 .aparece{
      display: none;
 }
-
 
  .logo-peque:visited {
      color: #ffffff;
@@ -153,23 +175,15 @@
  }
 
  .span-nav {
-     padding-top: 7px;
-     color: #f5f0f0;
-     font-size: 1.5em;
+     font-size: 32px;
+    line-height: 0px;
+     padding: 0 5px;
  }
 
  .lista {
-     background-color: #fff;
      display: none;
-     margin-right: 57px;
-     margin-top: -52px;
- }
-
- .fondo-nav-hamburguesa {
-     /*Una vez aplicado el js (con el menu desplegado) */
-     background-color: #fff;
-     color: #292929;
-     padding: 14px;
+     margin-right: 43px;
+     margin-top: -42px;
  }
 
  .lista > a :visited {
@@ -191,39 +205,28 @@
  ul {
      list-style: none;
      padding: 6px;
- }
-
- li:hover {
-     background-color: rgba(196, 194, 195, 0.84);
-     transition: 0.3s;
+     background-color: #fff;
  }
 
  li {
-     font-weight: 500;
-     font-size: 1.1em;
-     color: rgb(24, 24, 24);
+     font-weight: 600;
      letter-spacing: 0.05em;
      padding: 12px 12px;
  }
 
- i {
-     padding: 14px;
+li:hover {
+     background-color: rgba(196, 194, 195, 0.84);
+     transition: 0.3s;
  }
-
 
  /*Pantallas Grandes*/
  .estilo {
      height: 50px;
  }
 
- .fondo-nav {
-     background-color: rgb(24, 24, 24);
- }
-
  .logo-nav {
-     font-size: 1.8em;
      color: #ffffff;
-     font-family: 'Pacifico', cursive;
+   
  }
 
  .logo-nav:visited {
@@ -253,10 +256,9 @@
      justify-content: flex-end;
      margin-left: 24px;
  }
-
- .links > div > div > a {
-     padding: 5px;
- }
+.a-grande{
+    letter-spacing: 1px;
+}
 
  .a-grande:visited {
      color: rgba(255, 255, 255);
@@ -273,7 +275,7 @@
  .a-grande {
      font-weight: bold;
      font-size: 1.1em;
-     color: rgb(255, 255, 255);
+     
  }
  /* -----fin navs----- */
 
@@ -290,14 +292,13 @@
  .active {
      display: block;
  }
+
+
  /*fin carousel*/
 
 
  /* inicio horario*/
- .horario {
-     background: rgb(198, 137, 207);
-     background: linear-gradient(90deg, rgba(198, 137, 207, 0.5) 20%, rgba(179, 161, 235, 0.5) 73%);
- }
+
 
  .centro {
      width: auto;
@@ -329,7 +330,7 @@
 
  .gravity {
      background-color: rgba(47, 45, 35, 0.50);
-     color: white;
+    
  }
 
  .gravity:hover {
@@ -348,7 +349,7 @@
 
  .proximo {
      background-color: rgba(255, 61, 157, 0.6);
-     color: white;
+     
  }
 
  .proximo:hover {
@@ -377,9 +378,9 @@
  /* fin horario */
 
 
- /* Inicio Galeria*/
+ /* Inicio Galería*/
  .tarjeta-3-fondo {
-     background-color: rgba(211, 211, 211, 0.54);
+     background-color: rgba(211, 211, 211, 0.34);
      color: #242424;
  }
 
@@ -388,7 +389,7 @@
      padding: 20px;
      border-radius: 23px;
  }
- /* Fin Galeria*/
+ /* Fin Galería*/
 
 
  /* Inicio Donde Estamos*/
@@ -398,3 +399,21 @@
      height: 24em;
  }
  /* Fin Donde Estamos*/
+
+/*Inicio Footer*/
+
+.pie{
+    width:100%;
+}
+
+ .letra-footer:hover {
+     color: #ffffff;
+ }
+
+.a-sub:link{
+    text-decoration-line: underline;
+}
+.fondo-footer{
+    background-color: rgba(103, 16, 158, 0.86);
+}
+/*Fin Footer*/
