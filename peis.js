@@ -4,6 +4,16 @@ window.onload = function () {
     });
 }
 
+//flecha cabecera
+$(function () {
+            $('.arrow').bind("click", function () {
+                var dest = $(".scrol").offset().top;
+                $("html, body").animate({scrollTop: dest},1000);
+            });
+        });
+
+
+
 //velocidad de animacion de carousel
 $(".carousel").carousel({
     interval: 3000
@@ -48,3 +58,12 @@ function posicionarMenu() {
         $('.wrapper').css('margin-top', '0');
     }
 }
+
+
+//Scrool top desde la parte de abajo hacia arriba.
+$(document).ready(function() {
+	$('.flecha').click(function(){  //referimos el elemento ( clase o identificador de acción )
+		$('html, body').animate({scrollTop:0}, 'slow'); //seleccionamos etiquetas,clase o identificador destino, creamos animación hacia top de la página.
+		return false;
+	});
+});

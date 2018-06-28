@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="es">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -18,12 +17,10 @@
 
     <!-- Font famil -->
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600" rel="stylesheet"> 
 
     <!-- animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
-
 
     <!-- MI CSS -->
     <link rel="stylesheet" type="text/css" href="urban.css">
@@ -35,19 +32,22 @@
 <body>
     <!-- Fondo-inicio -->
     <section class="fondo-inicio header">
+        <span class="scrol"></span>
         <div>
             <h1 class="logo font-pacifico text-center letra-blanca">UrbanPeis</h1>
         </div>
+
         <div>
             <h2 class="eslogan font-pacifico text-center letra-blanca">Siente, Vive, Baila</h2>
         </div>
-        <div class="arrow text-center">
-            <i class="fas fa-angle-down letra-blanca"></i>
+        <div class="text-center">
+            <i class="arrow fas fa-angle-down letra-blanca"></i>
         </div>
+
     </section>
 
     <!-- Navegador pantallas grandes -->
-    <nav class="d-xs-none d-sm-none d-md-none d-lg-inline d-none fijo menu">
+    <nav class="d-xs-none d-sm-none d-md-none d-lg-inline d-none fijo menu Poppins">
         <div class="fondo-negro py-2">
             <div class="container">
                 <div class="row">
@@ -55,8 +55,8 @@
                         <a class="lp logo-nav font-pacifico m-0 py-0 aparece letra-blanca" href="#"> UrbanPeis </a>
                     </div>
                     <div class="col-9">
-                        <div class="links  container-flex">
-                            <div class="row text-right justify-content-end">
+                        <div class=" container-flex">
+                            <div class="row text-right justify-content-end links">
                                 <div class="rounded"><a class="a-grande letra-blanca" href="#">Eventos</a></div>
                                 <div class="rounded">
                                     <a class="a-grande letra-blanca" href="#">Grupos y horarios</a>
@@ -85,19 +85,18 @@
                     <div id="hamburguesa" class="span-nav letra-blanca text-right">
                         <i class="fas fa-bars "></i>
                     </div>
-                    <div class="lista text-right">
+                    <div class="lista text-right Poppins">
                         <ul>
-                            <li>EVENTOS<a class="a-hamburguesa" href="#"> </a></li>
-                            <li>GRUPOS Y HORARIOS<a class="a-hamburguesa" href="#"> </a></li>
-                            <li>GALERÍA<a class="a-hamburguesa" href="#"> </a></li>
-                            <li>SIGUENOS<a class="a-hamburguesa" href="#"> </a></li>
-                            <li>DONDE ESTAMOS<a class="a-hamburguesa" href="#"> </a></li>
+                            <li>EVENTOS<a href="#"> </a></li>
+                            <li>GRUPOS Y HORARIOS<a href="#"> </a></li>
+                            <li>GALERÍA<a href="#"> </a></li>
+                            <li>SIGUENOS<a href="#"> </a></li>
+                            <li>DONDE ESTAMOS<a href="#"> </a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-
     </nav>
 
     <div class="wrapper">
@@ -140,7 +139,7 @@
                     </div>
                     <div class="container-flex">
                         <div class="row justify-content-center m-0">
-                            <div class="col-12 col-md-9 cont margen-bot">
+                            <div class="col-12 col-md-9 cont tamanyo">
                                 <p class="p0 active">0 Muy lejos, más allá de las montañas de palabras, alejados de los países de las vocales y las consonantes, viven los textos simulados. Viven aislados Proin gravida consequat velit viven los textos simulados.
                                 </p>
                                 <p class="p1">1 Muy lejos, más allá de las montañas de palabras, alejados de los países de las vocales y las consonantes, viven los textos simulados. Viven aislados Proin gravida consequat velit
@@ -156,14 +155,14 @@
         </section>
 
         <!-- Horario-->
-        <div class="section fondo-rosa">
+        <section class="fondo-rosa pt-1 pb-4">
             <div class="container">
                 <div class="row">
-                    <div class="col margen-top margen-bot">
+                    <div class="col margen-bot">
                         <p class="h1 font-pacifico text-center">Grupos y Horarios</p>
                     </div>
                 </div>
-                <div class="row margen-bot">
+                <div class="row">
                     <div class="col-xs-1 col-md-6">
                         <div class="row justify-content-center">
                             <div class="rounded my-4 power pb-3 animado text-center sombra">
@@ -244,20 +243,20 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Claudia-->
-        <div class="section">
+        <section>
             <div class="container">
                 <div class="row">
                     <div class="col-xs- col-sm- col-md- col-lg-">
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Galeria -->
-        <div class="section justify-content-end">
+        <section class="justify-content-end">
             <div class="container">
                 <div class="row margen-top margen-bot">
                     <div class="col">
@@ -340,57 +339,67 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
         <!-- Siguenos-->
-        <div class="section">
+        <section class="fondo-rosa py-4">
             <div class="container">
-                <div class="row margen-top margen-bot">
+                <div class="row margen-to margen-bot">
                     <div class="col">
-                        <p class="h1 font-pacifico">Siguenos</p>
+                        <p class="h1 font-pacifico">Síguenos</p>
                     </div>
                 </div>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-instagram"></i>
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6">
+                        <p class="sangria">Entra en las redes sociales para ver todas las fotos, videos, noticias. No te pierdas nada! Sabrás donde, cuando y como serán los próximos eventos. Si queda alguna plaza libre para alguno de nuestros equipos</p>
+                    </div>
+                    <div class="col-12 col-md-6 text-center">
+                        <a href="#"><i class="fab fa-facebook fa-fw fa-3x"></i></a>
+                        <a href="#"><i class="fab fa-instagram fa-fw fa-3x mx-5"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-fw fa-3x"></i></a>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
         <!-- Inicio Donde estamos-->
-        <div class="section">
+        <section>
             <div class="container">
                 <div class="row margen-top margen-bot">
                     <div class="col-12">
-                        <p class="h1 font-pacifico text-center">Donde estamos</p>
+                        <p class="h1 font-pacifico text-center  margen-bot">Donde estamos</p>
                     </div>
                 </div>
             </div>
             <iframe class="mapa margen" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1290.167311049139!2d2.9114033708473706!3d39.727243196004395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297c5bb47558a23%3A0xef0909047b061eb7!2sAvinguda+de+Lluc%2C+299%2C+07300+Inca%2C+Illes+Balears!5e0!3m2!1ses!2ses!4v1528369709768" style="border:0" allowfullscreen></iframe>
-        </div>
+        </section>
         <!-- Fin Donde estamos-->
 
         <!-- Inicio sponsors-->
-        <div class="row ">
-            <div class="col margen-top margen-bot">
-                <p class="h1 font-pacifico text-center">Sponsors</p>
+        <section>
+            <div class="row">
+                <div class="col margen-top margen-bot">
+                    <p class="h1 font-pacifico text-center">Sponsors</p>
+                </div>
             </div>
-        </div>
-        <div class="fondo-rosa">
-            <div class="container letra-blanca py-4">
-                <div class="row justify-content-center">
-                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <img class="img-tarjeta-horario" src="img/logos/logo1.png" alt="" />
-                    </div>
-                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <img class="img-tarjeta-horario" src="img/logos/logo1.png" alt="" />
-                    </div>
-                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <img class="img-tarjeta-horario" src="img/logos/logo1.png" alt="" />
-                    </div>
-                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-                        <img class="img-tarjeta-horario" src="img/logos/logo1.png" alt="" />
+            <div class="fondo-rosa py-4">
+                <div class="container letra-blanca">
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                            <img class="img-tarjeta-horario" src="img/logos/logo1.png" alt="" />
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                            <img class="img-tarjeta-horario" src="img/logos/logo1.png" alt="" />
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                            <img class="img-tarjeta-horario" src="img/logos/logo1.png" alt="" />
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                            <img class="img-tarjeta-horario" src="img/logos/logo1.png" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Fin sponsors-->
 
 
@@ -399,21 +408,34 @@
             <div class="fondo-footer py-3">
                 <div class="container">
                     <div class="row text-center">
-                        <div class="col-5 col-sm-5 col-md-4 col-lg-4 ">
-                            <a class="letra-footer color-letra-footer m-0" href="#" >Politica de privacidad</a>
+                        <div class="col-5 col-sm-5 col-md-4 col-lg-4">
+                            <a class="letra-footer color-letra-footer m-0" href="#">Politica de privacidad</a>
                         </div>
                         <div class="col-3 col-sm-3 col-md-4 col-lg-4">
                             <a class="letra-footer color-letra-footer m-0" href="#">Aviso legal</a>
                         </div>
                         <div class="col-4 col-sm-4 col-md-4 col-lg-4">
-                                <img class="pb-2" alt="Licencia de Creative Commons" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"/>
+                            <img class="pb-2" alt="Licencia de Creative Commons" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" />
                         </div>
                     </div>
                 </div>
+                <div class="row mt-2">
+                    <div class="col-6 col-sm-5 col-md-4 col-lg-4 text-left pl-5">
+                        <i class="fab fa-facebook fa-fw fa-2x face"></i>
+                        <i class="fab fa-instagram fa-fw fa-2x  insta"></i>
+                        <i class="fab fa-twitter fa-fw fa-2x twit"></i>
+                    </div>
+                    <div class="col-3 col-sm-3 col-md-4 col-lg-4 pompeis">
+                        <p class=" text-center text-right font-pacifico">Pompeis</p>
+                    </div>
+                    <div class="col text-right pr-5"><i class="fas fa-angle-up letra-blanca flecha"></i></div>
+                </div>
+
             </div>
         </footer>
         <!--  Fin footer-->
     </div>
+
 
     <!-- jQ ultima version extendida para cargar animacion de la lista desplegable entre otras cosas-->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
