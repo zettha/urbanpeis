@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+.z{
+    z-index: 1000;
+    height: 70px;
+    
+}
 
 body {
     overflow-x: hidden;
@@ -118,6 +123,8 @@ a {
 
 .fondo-hamburguesa {
     /*Una vez aplicado el js (con el menu desplegado) */
+    width: 40px;
+    height: 40px;
     background-color: #fff;
     color: rgb(24, 24, 24);
     padding: 5px;
@@ -202,7 +209,7 @@ a {
 .lista {
     display: none;
     margin-right: 43px;
-    margin-top: -42px;
+    margin-top: -40px;
 }
 
 .lista > ul > li:nth-child(odd) {
@@ -217,14 +224,20 @@ a {
 
 ul {
     list-style: none;
-    padding: 6px;
+    padding: 5px;
     background-color: #fff;
 }
 
 li {
     font-weight: 500;
-    letter-spacing: 1px;
-    padding: 12px 12px;
+    letter-spacing: 0.5px;
+    padding: 12px 10px;
+}
+.lista > ul > li > a {
+   color: rgb(24, 24, 24);
+}
+.lista > ul > li > a:visited :active{
+    color: rgba(255, 255, 255);
 }
 
 /*Pantallas Grandes*/
@@ -272,9 +285,9 @@ li {
     min-height: 235px;
 }
 
-@media(min-width:600px) {
+@media(min-width:777px) {
     .tamanyo {
-        min-height: 100px;
+        min-height: 180px;
     }
 }
 
