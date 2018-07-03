@@ -67,3 +67,95 @@ $(document).ready(function() {
 		return false;
 	});
 });
+
+
+//scrool nav pc
+
+//Scrool Eventos
+$(document).ready(function() {
+	$('.eventos-pc').click(function(){  
+		$('html, body').animate({scrollTop:850}, 'slow'); 
+		return false;
+	});
+});
+
+//Scrool grupos
+$(document).ready(function() {
+	$('.grupos-pc').click(function(){  
+		$('html, body').animate({scrollTop:1730}, 'slow'); 
+		return false;
+	});
+});
+
+//Scrool galeria
+$(document).ready(function() {
+	$('.galeria-pc').click(function(){  
+		$('html, body').animate({scrollTop:3250}, 'slow'); 
+		return false;
+	});
+});
+
+//Scrool siguenos
+$(document).ready(function() {
+	$('.siguenos-pc').click(function(){  
+		$('html, body').animate({scrollTop:4535}, 'slow'); 
+		return false;
+	});
+});
+
+//Scrool donde
+$(document).ready(function() {
+	$('.donde-pc').click(function(){  
+		$('html, body').animate({scrollTop:4800}, 'slow'); 
+		return false;
+	});
+});
+
+//scrool nav hamburguesa
+//Scrool Eventos
+$(document).ready(function() {
+	$('.eventos-mvl').click(function(){  
+		$('html, body').animate({scrollTop:810}, 'slow'); 
+		return false;
+	});
+});
+
+//Scrool Eventos
+$(document).ready(function() {
+	$('.eventos-mvl').click(function(){  
+		$('html, body').animate({scrollTop:810}, 'slow'); 
+		return false;
+	});
+});
+
+//Scrool grupos
+$(document).ready(function() {
+	$('.grupos-mvl').click(function(){  
+		$('html, body').animate({scrollTop:1075}, 'slow'); 
+		return false;
+	});
+});
+
+//Scrool galeria
+$(document).ready(function() {
+	$('.galeria-mvl').click(function(){  
+		$('html, body').animate({scrollTop:4050}, 'slow'); 
+		return false;
+	});
+});
+
+//Scrool siguenos
+$(document).ready(function() {
+	$('.siguenos-mvl').click(function(){  
+		$('html, body').animate({scrollTop:7430}, 'slow'); 
+		return false;
+	});
+});
+
+//Scrool donde
+$(document).ready(function() {
+	$('.donde-mvl').click(function(){  
+		$('html, body').animate({scrollTop:7805}, 'slow'); 
+		return false;
+	});
+});
